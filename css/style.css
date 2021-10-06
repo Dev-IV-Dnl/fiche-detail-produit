@@ -1,0 +1,104 @@
+:root {
+    --col1: #333;
+    --col2: #F1F1F1;
+    --col3: darkblue;
+    --col4: transparent;
+    --col5: red;
+    --col6: green;
+    --col7: yellow;
+    --col8: purple;
+}
+
+h1 {
+    color: var(--col3);
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.divImgTitreDescription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+    /* border: solid 1px var(--col1); */
+}
+
+.divMiniatures {
+    width: 20%;
+    height: 85vh;
+    border: solid 1px var(--col1);
+}
+.miniature1 {
+    width: 100%;
+    height: 25%;
+    background-image: url("../img/yam2.jpg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.miniature2 {
+    width: 100%;
+    height: 25%;
+    background-image: url("../img/yam3.jpg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.miniature3 {
+    width: 100%;
+    height: 25%;
+    background-image: url("../img/yam4.jpg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.miniature4 {
+    width: 100%;
+    height: 25%;
+    background-image: url("../img/yam5.jpg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.imgPrincipale {
+    width: 60%;
+    height: 85vh;
+    border: solid 1px var(--col1);
+    background-image: url("../img/yam1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.titreDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+}
+
+.prixPanier {
+    width: 100%;
+    height: 5vh;
+    border: solid 1px var(--col3);
+}
+.prixPanier .prix {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+.prixPanier .panier {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
