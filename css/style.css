@@ -90,7 +90,6 @@ h1 {
 .prixPanier {
     width: 100%;
     height: 5vh;
-    border: solid 1px var(--col3);
 }
 .prixPanier .prix {
     position: absolute;

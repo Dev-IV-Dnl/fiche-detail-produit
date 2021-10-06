@@ -8,13 +8,13 @@ let allMiniatures = [imgMin1, imgMin2, imgMin3, imgMin4];
 for (let i in allMiniatures) {
     allMiniatures[i].addEventListener("click", () => {
         if (allMiniatures[i] == imgMin1) {
-            imgP.style.backgroundImage = 'url("../img/yam2.jpg")';
+            imgP.style.backgroundImage = 'url("./img/yam2.jpg")';
         } else if (allMiniatures[i] == imgMin2) {
-            imgP.style.backgroundImage = 'url("../img/yam3.jpg")';
+            imgP.style.backgroundImage = 'url("./img/yam3.jpg")';
         } else if (allMiniatures[i] == imgMin3) {
-            imgP.style.backgroundImage = 'url("../img/yam4.jpg")';
+            imgP.style.backgroundImage = 'url("./img/yam4.jpg")';
         } else if (allMiniatures[i] == imgMin4) {
-            imgP.style.backgroundImage = 'url("../img/yam5.jpg")';
+            imgP.style.backgroundImage = 'url("./img/yam5.jpg")';
         }
     })
 }
